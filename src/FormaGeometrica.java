@@ -48,7 +48,11 @@ public abstract class FormaGeometrica {
     public abstract double perimetro();
 
     public boolean temAreaMaiorQue(FormaGeometrica outra){
+<<<<<<< Updated upstream
         return  this.area() > outra.area();
+=======
+        return this.area () > outra.area();
+>>>>>>> Stashed changes
     }
 
     /**

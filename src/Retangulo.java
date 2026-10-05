@@ -31,7 +31,7 @@ public class Retangulo extends PoligonoReto{
      * @param altura Altura para o retângulo. Valor deve ser igual ou maior a 1, ou será corrigido para 1.
      */
     public Retangulo(double base, double altura){
-        
+        super("RETANGULO", base, altura);
     }
 
     /**
@@ -40,7 +40,11 @@ public class Retangulo extends PoligonoReto{
      */
     @Override
     public double area(){
+<<<<<<< Updated upstream
         area = lado 
+=======
+        return base * altura;
+>>>>>>> Stashed changes
     }
 
     /**
@@ -49,7 +53,11 @@ public class Retangulo extends PoligonoReto{
      */
     @Override
     public double perimetro(){
+<<<<<<< Updated upstream
         return 2*area 
+=======
+        return (altura*2) + (base*2);
+>>>>>>> Stashed changes
     }
 
     /**

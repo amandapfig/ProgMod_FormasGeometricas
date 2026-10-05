@@ -41,7 +41,11 @@ public class Circulo extends FormaGeometrica{
      */
     @Override
     public double area(){
+<<<<<<< Updated upstream
         return Math 
+=======
+        return Math.PI * raio * raio;
+>>>>>>> Stashed changes
     }
 
     /**
@@ -50,7 +54,7 @@ public class Circulo extends FormaGeometrica{
      */
     @Override
     public double perimetro(){
-        //TODO
+        return 2 * Math.PI * raio;
     }
 
     /**
