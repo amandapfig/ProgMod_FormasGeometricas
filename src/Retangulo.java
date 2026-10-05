@@ -40,11 +40,7 @@ public class Retangulo extends PoligonoReto{
      */
     @Override
     public double area(){
-<<<<<<< Updated upstream
-        area = lado 
-=======
-        return base * altura;
->>>>>>> Stashed changes
+         return base * altura;
     }
 
     /**
@@ -53,11 +49,7 @@ public class Retangulo extends PoligonoReto{
      */
     @Override
     public double perimetro(){
-<<<<<<< Updated upstream
-        return 2*area 
-=======
-        return (altura*2) + (base*2);
->>>>>>> Stashed changes
+      return (altura*2) + (base*2);
     }
 
     /**

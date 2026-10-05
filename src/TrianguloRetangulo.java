@@ -40,11 +40,7 @@ public class TrianguloRetangulo extends PoligonoReto{
      */
     @Override
     public double area(){
-<<<<<<< Updated upstream
-        return 
-=======
         return (base*altura)/2;
->>>>>>> Stashed changes
     }
 
     /**
